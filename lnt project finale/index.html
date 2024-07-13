@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PuddingFest</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <nav>
+            <ul>
+              <li><a href="#landing">Home</a></li>
+              <li><a href="#event">Event</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+  
+  <section id="landing">
+    <div class="title-box">
+        <div class="welcome-text"><h1>Welcome to PuddingFest!</h1></div>
+    </div>
+    <div class="landing-box">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum autem repellat similique a consectetur illum repellendus dicta dolore consequuntur corporis nam rem, explicabo porro? Esse quas aliquam iure tempora vel, laudantium reiciendis, illo inventore at quasi doloribus dicta repellat distinctio modi dignissimos libero? Asperiores dolor, quae ullam nisi quas eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus incidunt unde voluptates, iusto labore animi illo enim itaque sequi, et, voluptatem ducimus nulla minima ratione. Sed tempore, nesciunt, quibusdam error sequi cupiditate repellendus alias eligendi, aperiam necessitatibus maiores doloribus odit ea itaque. Alias numquam vitae laudantium porro consequuntur rerum officiis.</p>
+    </div>
+  </section>
+
+  <section id="event">
+    <div class="title-box">
+        <div class="detail-text"><h1>Our Activities!</h1></div>
+    </div>
+
+    <div class="landing-box">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum autem repellat similique a consectetur illum repellendus dicta dolore consequuntur corporis nam rem, explicabo porro? Esse quas aliquam iure tempora vel, laudantium reiciendis, illo inventore at quasi doloribus dicta repellat distinctio modi dignissimos libero? Asperiores dolor, quae ullam nisi quas eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus incidunt unde voluptates, iusto labore animi illo enim itaque sequi, et, voluptatem ducimus nulla minima ratione. Sed tempore, nesciunt, quibusdam error sequi cupiditate repellendus alias eligendi, aperiam necessitatibus maiores doloribus odit ea itaque. Alias numquam vitae laudantium porro consequuntur rerum officiis.</p>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel">
+          <img src="1.jpg" alt="1">
+          <img src="2.HEIC" alt="2">
+          <img src="3.HEIC" alt="3">
+          <img src="4.JPG" alt="4">
+        </div>
+    </div>
+
+    <div class="title-box">
+        <div class="detail-text"><h1>Timeline</h1></div>
+    </div>
+
+    <div id="content">
+        <div id="box1" class="box">
+            <div class="top-layer">
+                <div class="event-image-container">
+                    <img class="event-image" src="ellipse.png" width="100px" height="100px">
+                    <img class="arrow-down" src="downarrow.png" alt="Arrow Down">
+                </div>
+                <div class="event-image-container">
+                    <img class="event-image" src="ellipse.png" width="100px" height="100px">
+                    <img class="arrow-down" src="downarrow.png" alt="Arrow Down">
+                </div>
+                <div class="event-image-container">
+                    <img class="event-image" src="ellipse.png" width="100px" height="100px">
+                    <img class="arrow-down" src="downarrow.png" alt="Arrow Down">
+                </div>
+                <div class="event-image-container">
+                    <img class="event-image" src="ellipse.png" width="100px" height="100px">
+                    <img class="arrow-down" src="downarrow.png" alt="Arrow Down">
+                </div>
+            </div>
+
+            <div class="timeline-line"></div>
+
+            <div class="bottom-layer">
+                <div class="text">
+                    <p>01/01/2024</p>
+                    <p>Description</p>
+                </div>
+                <div class="text">
+                    <p>01/01/2024</p>
+                    <p>Description</p>
+                </div>
+                <div class="text">
+                    <p>01/01/2024</p>
+                    <p>Description</p>
+                </div>
+                <div class="text">
+                    <p>01/01/2024</p>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="title-box">
+        <div class="regist-text"><h2>Registration Form</h2></div>
+    </div>
+    <form id="registrationForm">
+        <div class="row">
+          <div class="col">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required minlength="3">
+          </div>
+          <div class="col">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required pattern="^08[0-9]{9,12}$">
+          </div>
+          <div class="col">
+            <label for="event">Event:</label>
+            <select id="event" name="event" required>
+              <option value="">Select an event</option>
+              <option value="event1">1</option>
+              <option value="event2">2</option>
+              <option value="event3">3</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <button type="submit">Register</button>
+        </div>
+    </form> 
+
+  </section>
+
+  <section id="contact">
+    <div class="title-box">
+      <h1>Reach Us Out!</h1>
+    </div>
+    <div class="container-contact">
+      <div class="contact-info">
+        <div>
+          <i class="fab fa-whatsapp whatsapp"></i>
+          <span>WhatsApp: <a href="https://whatsapp.com" class="whatsapp">081312312312</a></span>
+        </div>
+        <div>
+          <i class="fas fa-envelope email"></i>
+          <span>Email: <a href="mailto:fernandoavevo@gmail.com" class="email">fernandoavevo@gmail.com</a></span>
+        </div>
+        <div>
+          <i class="fab fa-linkedin linkedin"></i>
+          <span>LinkedIn: <a href="https://www.linkedin.com" class="linkedin">Whereismycompany</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

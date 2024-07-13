@@ -1,0 +1,476 @@
+@media screen and (max-width: 1440px){
+    #front-page .title{
+        margin-top: 0rem;
+    }
+    #about-us {
+        margin-top: 80px; 
+        margin-bottom: 2rem;
+    }
+    .row .img img {
+        max-width: 600px; 
+    }
+    .row .content h3 {
+        font-size: 30px;
+    }
+    .row .content p {
+        font-size: 14px;
+        max-width: 600px;
+    }
+    #event-page {
+        margin-top: 60px;
+    }
+    #event-carousel {
+        margin-top: 250px;
+    }
+    #slider {
+        width: 1000px;
+    }
+    #event-timeline {
+        margin-top: 100px;
+    }
+    #registration-form {
+        margin-top: 450px;
+    }
+    #contact-us {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    #front-page .title{
+        margin-top: 0rem;
+    }
+    #about-us {
+        margin-top: 80px; 
+        margin-bottom: 2rem;
+    }
+    .row .img img {
+        max-width: 500px; 
+    }
+    #event-page {
+        margin-top: 60px;
+    }
+    #event-carousel {
+        margin-top: 250px;
+    }
+    #event-timeline {
+        margin-top: 100px;
+    }
+    #registration-form {
+        margin-top: 450px;
+    }
+    #contact-us {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    #front-page {
+        height: 110vh;
+        width: 191vh;
+    }
+    #front-page .title{
+        margin-top: 0rem;
+    }
+    #about-us {
+        margin-top: 80px; 
+        margin-bottom: 0rem;
+    }
+    .row .img img {
+        max-width: 400px; 
+    }
+    .row .content h3 {
+        font-size: 30px;
+    }
+    #event-page {
+        margin-top: 60px;
+    }
+    #event-carousel {
+        margin-top: 250px;
+    }
+    #slider {
+        width: 800px;
+        margin-right: 4.5rem;
+    }
+    #event-timeline {
+        margin-top: 100px;
+        margin-left: 1rem;
+    }
+    #registration-form {
+        margin-top: 450px;
+        margin-left: 3rem;
+    }
+    #contact-us {
+        margin-top: 60px;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    #front-page {
+        height: 116vh;
+        width: 198vh;
+    }
+    #front-page .title{
+        margin-top: 0rem;
+    }
+    #about-us {
+        margin-top: 80px;
+    }
+    #about-us h1 {
+        margin-left: 20rem;
+    }
+    .row .img img {
+        max-width: 500px; 
+    }
+    .row .content {
+        min-width: 350px;
+    }
+    .row .content h3 {
+        font-size: 24px;
+    }
+    .row .content button {
+        font-size: 12px;
+        width: 120px;
+    }
+    .row .content button span::after {
+        font-size: 12px;
+    }
+    .row .content p {
+        font-size: 12px;
+    }
+    #event-page {
+        margin-top: 60px;
+    }
+    #event-page .setlist h1 {
+        margin-left: 23rem;
+    }
+    .right-side ul li { 
+        font-size: 1.1rem;   
+    }
+    .left-side ul {
+        padding-left: 150px;
+    }
+    .right-side {
+        right: -250px;
+    }
+    .right-side ul {
+        padding: 10px;
+    }
+    .left-side ul::after {
+        height: calc(100% - 150px);
+        left: 165px;
+        top: 76px;
+    }
+    .left-side ul li a {
+        font-size: 1.5rem;
+    }
+    #event-carousel {
+        margin-top: 600px;
+    }
+    #event-carousel .carousel-title h1 {
+        margin-left: 20rem;
+    }
+    #slider {
+        position: relative;
+        left: 150px;
+    }
+    #slide1:checked ~ #controls label:nth-last-child(1),
+    #slide2:checked ~ #controls label:nth-last-child(4),
+    #slide3:checked ~ #controls label:nth-last-child(3),
+    #slide4:checked ~ #controls label:nth-last-child(2) {
+    margin: 0 0 0 15px;
+    }
+    #event-timeline h1 {
+        margin-top: 180px;
+        margin-left: 20rem;
+    }
+    .container .center-line {
+        height: 85%;
+    }
+    .wrapper .center-line {
+        left: 30px;
+    }
+    .wrapper .row {
+        margin: 30px 0 3px 60px;
+    }
+    .container .row-1 {
+        justify-content: flex-end;
+    }
+    .container .row-2 {
+        justify-content: flex-end;
+    }
+    .container .row-3 {
+        justify-content: flex-end;
+    }
+    .container .row-4 {
+        justify-content: flex-end;
+    }
+    .container .row-5 {
+        justify-content: flex-end;
+    }
+    .row-1 section .icon {
+        right: 305px;
+    }
+    .row-2 section .icon {
+        left: -60px
+    }
+    .row-3 section .icon {
+        right: 305px;
+    }
+    .row-4 section .icon {
+        left: -60px
+    }
+    .row-5 section .icon {
+        right: 305px;
+    }
+    .container .row section {
+        width: calc(50% - 30px);
+    }
+    .row section .details .title {
+        font-size: 1.2rem;
+    }
+    .end i {
+        padding-left: 20px;
+        font-size: 13px;
+        position: relative;
+        bottom: 10px;
+    }
+    #registration-form {
+        margin-top: 1000px;
+        margin-left: 20rem;
+    }
+    #registration-form img {
+        width: 350px;
+    }
+    #registration-form h1 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    #contact-us {
+        position: relative;
+        left: 13rem;
+    }
+    .info-container i {
+        font-size: 30px;
+    }
+    .address, .telephone, .email {
+        max-width: 300px;
+        font-size: 14px;
+    }
+    footer p {
+        position: relative;
+        left: 15rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #nav-bar {
+        display: none;
+    }
+    #responsive {
+        display: flex;
+    }
+    #responsive .logo {
+        margin-left: 1rem;
+        margin-top: 1.2rem;
+    }
+    #responsive .hamburg {
+        margin-right: 1rem;
+    }
+    #front-page {
+        height: 116vh;
+        width: 198vh;
+    }
+    #front-page .title{
+        margin-top: 0rem;
+    }
+    #about-us {
+        margin-top: 80px;
+    }
+    #about-us h1 {
+        position: relative;
+        right: 17rem;
+    }
+    .row .img img {
+        max-width: 500px; 
+    }
+    .row .content {
+        min-width: 350px;
+    }
+    .row .content h3 {
+        font-size: 24px;
+    }
+    .row .content button {
+        font-size: 12px;
+        width: 120px;
+    }
+    .row .content button span::after {
+        font-size: 12px;
+    }
+    .row .content p {
+        font-size: 12px;
+    }
+    #event-page {
+        margin-top: 60px;
+    }
+    #event-page .setlist h1 {
+        margin-left: 23rem;
+    }
+    .right-side ul li { 
+        font-size: 1.1rem;   
+    }
+    .left-side ul {
+        padding-left: 150px;
+    }
+    .right-side {
+        right: -250px;
+    }
+    .right-side ul {
+        padding: 10px;
+    }
+    .left-side ul::after {
+        height: calc(100% - 150px);
+        left: 165px;
+        top: 76px;
+    }
+    .left-side ul li a {
+        font-size: 1.5rem;
+    }
+    #event-carousel {
+        margin-top: 600px;
+    }
+    #event-carousel .carousel-title h1 {
+        margin-left: 20rem;
+    }
+    #slider {
+        position: relative;
+        left: 150px;
+    }
+    #slide1:checked ~ #controls label:nth-last-child(1),
+    #slide2:checked ~ #controls label:nth-last-child(4),
+    #slide3:checked ~ #controls label:nth-last-child(3),
+    #slide4:checked ~ #controls label:nth-last-child(2) {
+    margin: 0 0 0 15px;
+    }
+    #event-timeline h1 {
+        margin-top: 180px;
+        margin-left: 20rem;
+    }
+    .container .center-line {
+        height: 85%;
+    }
+    .wrapper .center-line {
+        left: 30px;
+    }
+    .wrapper .row {
+        margin: 30px 0 3px 60px;
+    }
+    .container .row-1 {
+        justify-content: flex-end;
+    }
+    .container .row-2 {
+        justify-content: flex-end;
+    }
+    .container .row-3 {
+        justify-content: flex-end;
+    }
+    .container .row-4 {
+        justify-content: flex-end;
+    }
+    .container .row-5 {
+        justify-content: flex-end;
+    }
+    .row-1 section .icon {
+        right: 305px;
+    }
+    .row-2 section .icon {
+        left: -60px
+    }
+    .row-3 section .icon {
+        right: 305px;
+    }
+    .row-4 section .icon {
+        left: -60px
+    }
+    .row-5 section .icon {
+        right: 305px;
+    }
+    .container .row section {
+        width: calc(50% - 30px);
+    }
+    .row section .details .title {
+        font-size: 1.2rem;
+    }
+    .end i {
+        padding-left: 20px;
+        font-size: 13px;
+        position: relative;
+        bottom: 10px;
+    }
+    #registration-form {
+        margin-top: 1000px;
+        margin-left: 20rem;
+    }
+    #registration-form img {
+        width: 350px;
+    }
+    #registration-form h1 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    #contact-us {
+        position: relative;
+        left: 13rem;
+    }
+    .info-container i {
+        font-size: 30px;
+    }
+    .address, .telephone, .email {
+        max-width: 300px;
+        font-size: 14px;
+    }
+    footer p {
+        position: relative;
+        left: 15rem;
+    }
+}

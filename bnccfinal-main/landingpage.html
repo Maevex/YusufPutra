@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pudding Fest</title>
+    <link rel = "stylesheet" href = "landingpage.css"> 
+    <link rel = "stylesheet" href = "mediaqueries.css">
+</head>
+<body>
+    <section id = "front-page">
+        <nav id = "nav-bar" class = "hiddennav">
+            <div class = "logo">
+                <img src = "assets/PUDDING_FEST__9_-removebg-preview.png">
+                <span>Pudding<b class = "yes">FEST</b></span>
+            </div>
+            <div>
+                <ul class = "nav">
+                    <li><a href= "#about-us">About us</a></li>
+                    <li><a href = "#event-page">Event Page</a></li>
+                    <li><a href = "#contact-us">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id = "responsive">
+            <div class = "logo">Pudding<b class = "yes">Fest</b></div>
+            <div class = "hamburg">
+                <div class = "hamburg-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class = "links">
+                    <li><a href= "#about-us" onclick="toggleMenu()">About us</a></li>
+                    <li><a href = "#event-page" onclick="toggleMenu()">Event Page</a></li>
+                    <li><a href = "#contact-us" onclick="toggleMenu()">Contact us</a></li>
+                </div>
+            </div>
+        </nav>
+        <div class = "title">
+            <h1>PUDDING</h1>
+            <h1 class = "fest">FEST</h1>
+            <div class = "line"></div>
+            <h2>Where Humanity's <b class = "yes">Everlasting</b> Advancement Made <b class = "yes">Possible</b></h2>
+            <div class = "buttons">
+                <button><span>Get Started </span></button>
+                <button><span>Sponsors </span></button>
+            </div>
+        </div>
+    </section>
+    <section id = "about-us">
+        <h1 class = "header"><span>ABOUT</span> US</h1>
+        <div class = "row">
+            <div class = "img">
+                <img src = "assets/Rules! (3).png">
+            </div>
+            <div class = "content">
+                <h3>We seek to find the next big thing in Tech</h3>
+                <p>Comprised of influential tech icons Seeun, Jeongyeon, and Hanni, Indonesia's biggest online tech event
+                    was put together by PT ChipiChapa in October 2015. After a successful early years, we climbed our way
+                    to the top presenting the most mind boggling tech to solve real world problem and further extend humanity's
+                    grip on power over the universe.
+                </p>
+                <button><span>Learn more </span></button>
+            </div>
+        </div>
+    </section>
+    <section id="event-page">
+        <div class="setlist">
+            <h1>EVENT <span>SETLIST</span></h1>
+        </div>
+        <div class="container-event">
+            <div class="left-side">
+                <ul>
+                    <li><a class="active">Introductory speech</a></li>
+                    <li><a>First Presentation Section</a></li>
+                    <li><a>Lunch Break</a></li>
+                    <li><a>Second Presentation Section</a></li>
+                    <li><a>Closing speech</a></li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><span class="explanation active">Intro speech from our beloved CEO Pak Raja!</span></li>
+                    <li><span class="explanation">The main session of presentation by 20+ representatives from all over the world</span></li>
+                    <li><span class="explanation">Let us all feast on Oriental Chicken Rice before we continue our march into an inevitable technological advancement</span></li>
+                    <li><span class="explanation">Exclusive Talkshow and QnA with our tech icons Jeongyeon and Hanni</span></li>
+                    <li><span class="explanation">Outro speech from our well-respected Executive Director Yoon Seeun</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id = "event-carousel">
+        <div class = "carousel-title">
+            <h1>OUR <span>TECH</span> ICONS</h1>
+        </div>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                           <h2>Pak<span> Raja</span></h2>
+                           <h3>CEO PT ChipiChapa</h3>
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <h2>Yoon <span>Seeun</span></h2>
+                           <h3>Executive Director PT ChipiChapa</h3>
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                           <h2>Yoo <span>Jeongyeon</span></h2>
+                           <h3>Founder TDOONG Inc</h3>
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                           <h2><span>Hanni</span> Pham</h2>
+                           <h3>CEO Arasaka Corp</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>
+    </section>
+    <section id = "event-timeline">
+        <div class = "timeline-title">
+            <h1>EVENT <span>TIMELINE</span></h1>
+        </div>
+        <div class = "container">
+            <div class = "center-line"></div>
+            <div class = "row row-1">
+                <section>
+                    <i class = "icon fas fa-star"></i>
+                    <div class = "details">
+                        <span class = "title">Introductory Speech</span>
+                        <span>07:00 AM</span>
+                    </div>
+                    <p>An hour full of knowledge and wisdom from our one and only CEO Pak Raja!</p>
+                    <div class = "end">
+                        <button><span>Read more </span></button>
+                        <i>20th October 2024</i>
+                    </div>
+                </section>
+            </div>
+            <div class = "row row-2">
+                <section>
+                    <i class = "icon fas fa-star"></i>
+                    <div class = "details">
+                        <span class = "title">First Presentation Section</span>
+                        <span>08:00 AM</span>
+                    </div>
+                    <p>Have a taste of humanity's endless march of technological advancement brought to you by 20+ represntatives from all over the globe!</p>
+                    <div class = "end">
+                        <button><span>Read more </span></button>
+                        <i>20th October 2024</i>
+                    </div>
+                </section>
+            </div>
+            <div class = "row row-3">
+                <section>
+                    <i class = "icon fas fa-star"></i>
+                    <div class = "details">
+                        <span class = "title">Lunch Break</span>
+                        <span>12:00 AM</span>
+                    </div>
+                    <p>Taste the juiciness of Katsudon with japanese style tamago on top served alongside classic hainan rice brought to you by Oriental Chicken Rice!</p>
+                    <div class = "end">
+                        <button><span>Read more </span></button>
+                        <i>20th October 2024</i>
+                    </div>
+                </section>
+            </div>
+            <div class = "row row-4">
+                <section>
+                    <i class = "icon fas fa-star"></i>
+                    <div class = "details">
+                        <span class = "title">Second Presentation Section</span>
+                        <span>01:00 PM</span>
+                    </div>
+                    <p>The Final Showdown! Talk Show with the most gifted human beings on earth, have a sip of their infinite knowledge and wisdom with a QnA session!</p>
+                    <div class = "end">
+                        <button><span>Read more </span></button>
+                        <i>20th October 2024</i>
+                    </div>
+                </section>
+            </div>
+            <div class = "row row-5">
+                <section>
+                    <i class = "icon fas fa-star"></i>
+                    <div class = "details">
+                        <span class = "title">Closing</span>
+                        <span>17:00 PM</span>
+                    </div>
+                    <p>Half an hour of farewell speech by our Executive Director Yoon Seeun, See You Next Year!</p>
+                    <div class = "end">
+                        <button><span>Read more </span></button>
+                        <i>20th October 2024</i>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section id = "registration-form" class = "hidden">
+        <div class = "contact-container">
+            <form action ="" class = "contact-left">
+                <div class = "contact-left-title">
+                    <h1>Registration Form</h1>
+                    <hr>
+                </div>
+                <input type = "email" placeholder = "Enter your Email" class = "contact-inputs" required>
+                <input type = "text" placeholder = "Enter your Name" class = "contact-inputs" required pattern=".{3,}">
+                <input type = "tel" pattern = "08\d{11}" placeholder = "Enter your Phone Number" class = "phone contact-inputs" required>
+                <div class = "dropdown">
+                    <div class ="select">
+                        <span class = "selected">Choose the Event</span>
+                        <div class = "caret"></div>
+                    </div>
+                    <ul class = "menu">
+                        <li>Introductory Speech</li>
+                        <li>Presentation Session</li>
+                        <li>TalkShow and QnA</li>
+                        <li>Final Speech</li>
+                    </ul>
+                </div>
+                <button type = "submit" id = "submitbtn"><span>Submit </span></button>
+            </form>
+            <div class = "contact-right">
+                <img src = "assets/PUDDING_FEST__9_-removebg-preview.png">
+            </div>
+        </div>
+    </section>
+    <section id = "contact-us">
+        <div class = "get-in-touch">
+            <h1>Get in <span>Touch</span></h1>
+        </div>
+        <div class = "info-container">
+            <div class = "address">
+                <i class="fa-solid fa-location-dot"></i>
+                <h1>Office Building</h1>
+                <p>Suite 161 4853 Lembah Silikon, Vanceshire, NH 63202-9333</p>
+            </div>
+            <div class = "telephone">
+                <i class="fa-solid fa-phone"></i>
+                <h1>Front Office</h1>
+                <p>0216969420</p>
+                <p>Office hour<br>08:AM - 17:00 PM</p>
+            </div>
+            <div class = "email">
+                <i class="fa-solid fa-envelope"></i>
+                <h1>Email</h1>
+                <p>puddingfest@gmail.com</p>
+                <p>Office hour<br>08:AM - 17:00 PM</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169; 2024 PT ChipiChapa. All Rights Reserved.</p>
+    </footer>
+    <script src = "landingpage.js"></script>
+    <script type = "module" src= "firebase.mjs"></script>
+    <script src="https://kit.fontawesome.com/1342e83823.js" crossorigin="anonymous"></script>
+</body>
+</html>
