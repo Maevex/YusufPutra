@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potofolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c31f508b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <h2 class="logo">Porto <span>Oliver</span></h2>
+            <ul id="sidemenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portofolio.html">PORTOFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="content">
+            <h1>Hello, <br>
+                I'M Oliver Sebastian</h1>
+            <h2>From Depok, Jawa Barat</h2>
+        </div>
+    </div>
+    </section>
+
+<!------------------- Info ------------------->
+
+    <section class="information">
+        <h1>About Me</h1>
+        <p>I am a fourth-semester student majoring in computer science at Bina Nusantara University. I am an
+            enthusiastic and highly motivated student with leadership skills and initiative. I like to seek new challenges and
+            can socialize and adapt quickly. Has experience in several student activity units and has experience working in
+            teams.</p>
+
+        <div class="row">
+            <div class="informationColoum">
+                <h3>Skills</h3>
+                <p> 
+                Programming Languge : <br>
+                C, Python, HTML and CSS, Java 
+                <br>
+                <br>
+                Relevant Skill : <br>
+                Teamworking, Responsiveness, Communication Skills Fluent in English
+                </p>
+            </div>
+
+            <div class="informationColoum">
+                <h3>Education</h3>
+                <p>
+                Regina Pacis Senior High School <br> (2019 - 2021) 
+                <br>
+                <br>
+                Bina Nusantara University <br> (2021 - 2025)
+                </p>
+            </div>
+
+            <div class="informationColoum">
+                <h3>Work Experience</h3>
+                <p>
+                Education Counselor - Bina Nusantara University
+                <br>
+                (2022 - Present)
+                <br>
+                <br>
+                Badminton Divison Committe - Recis Resonance
+                <br>
+                (Oct 2019 - Oct 2019)
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+<!------------------- CONTACT ------------------->
+
+    <section class="contact">
+        <div class="row">
+            <div class="contactMe">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>oliversebastian321@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0821-1083-2236</p>
+                <div class="socialmediaIcons">
+                    <a href="https://www.linkedin.com/in/oliver-sebastian-4590a1169/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/oliversebastian__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/oliveraja"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <a href="images/cv ats.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+        </div>
+    </section>
+
+
+<!------------------- FOOTER ------------------->
+
+    <section class="footer">
+        <p>
+        oliver@2023. 
+        <br>
+        -BNCC2201027-</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/oliver-sebastian-4590a1169/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/oliversebastian__/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/oliveraja"><i class="fa-brands fa-github"></i></a>
+            </div>
+    </section>
+
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-250px";
+    }
+
+</script>
+
+</body>
+</html>

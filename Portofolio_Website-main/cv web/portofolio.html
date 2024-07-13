@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potofolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c31f508b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subHeader">
+        <nav>
+            <h2 class="logoContact">Porto <span>Oliver</span></h2>
+            <ul id="sidemenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portofolio.html">PORTOFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+
+    </section> 
+
+        <section class="portofolio">
+        <h1>My Portofolio</h1>
+
+        <div class="row">
+            <div class="portofolioColoum">
+                <img src="images/1.png">
+                <h3>Uniedu Website</h3>
+                <p>I made this Uniedu university website for the Human and Computer Interaction course assignment</p>
+            </div>
+
+            <div class="portofolioColoum">
+                <img src="images/2.png">
+                <h3>MTgrphy Website</h3>
+                <p>
+                MTgraphy is a portoflio website for a phtographer,<br>
+                I made this MTgraphy website for the Human and Computer Interaction course assignment
+                </p>
+            </div>
+            
+            <div class="portofolioColoum">
+                <img src="images/3.png">
+                <h3>Portofolio Website </h3>
+                <p>I made this website for BNCC Mid Project</p>
+            </div>
+        </div>
+    </section>
+
+<!------------------- FOOTER ------------------->
+
+<section class="footerAbout">
+    <p>
+    oliver@2023. 
+    <br>
+    -BNCC2201027-</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/oliver-sebastian-4590a1169/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/oliversebastian__/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/oliveraja"><i class="fa-brands fa-github"></i></a>
+        </div>
+</section>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-250px";
+    }
+
+</script>
+
+</body>
+</html>

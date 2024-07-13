@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 10;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: white;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translateY(-50);
+}
+
+.content h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content h2{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------- INFO -------------------*/
+
+.information{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.information h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information img{
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.information p{
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informationColoum{
+    flex-basis: 30%;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: context-menu;
+}
+
+.informationColoum h3{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informationColoum p{
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informationColoum:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contactMe{
+    flex-basis: 35%;
+    padding-left: 10%;
+    position: absolute;
+}
+
+.contactMe h1{
+    color: black;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.contactMe p{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.contactMe p i{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.socialmediaIcons{
+    margin-top: 20px;
+}
+
+.socialmediaIcons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+
+.socialmediaIcons a:hover{
+    color: red;
+    transform: translateY(-5px);
+}
+
+.btn{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 15px 50px;
+    border-radius: 6px;
+    display:  inline-block;
+    background: black;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: background 0.5s;
+    padding-bottom: 10px;
+}
+
+.btn:hover{
+    background: red;
+}
+
+/*------------------- FOOTER -------------------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer p{
+    color: black;
+    padding-top: 300px;
+    font-weight: bold;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+
+/* ---------------------- CONTACT ----------------------*/
+
+body{
+    background: white;
+    color: white;
+}
+
+.logoContact{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: red;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.subHeader nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+
+.contactInfo{
+    flex-basis: 35%;
+    position: absolute;
+}
+
+.contactInfo h1{
+    color: black;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.contactInfo p{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.contactInfo p i{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.socialmediaIcons{
+    margin-top: 20px;
+}
+
+.socialmediaIcons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+
+.socialmediaIcons a:hover{
+    color: red;
+    transform: translateY(-5px);
+}
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.contactMe{
+    width: 80%;
+    margin: auto;
+}
+
+.contactColoum{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: black;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contactColoum div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contactColoum div p{
+    padding: 0;
+    margin-left: 10px;
+}
+.contactColoum div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: black;
+}
+
+.contactColoum input, .contactColoum textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.footerContact{
+    width: 100%;
+    text-align: center;
+}
+.footerContact p{
+    color: black;
+    font-weight: bold;
+    margin-top: 65%;
+}
+
+.footerContact a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+
+/* --------------------------- ABOUT ---------------------------*/
+
+.portofolio{
+    color: black;
+    text-align: center;
+}
+
+.portofolio h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.portofolioColoum{
+    flex-basis: 30%;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.portofolioColoum img{
+    width: 100%;
+    border-radius: 10px;
+}
+.portofolioColoum p{
+    padding: 0;
+    padding-bottom: 50px;
+}
+.portofolioColoum h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.footerAbout{
+    width: 100%;
+    text-align: center;
+}
+.footerAbout p{
+    color: black;
+    font-weight: bold;
+}
+
+.footerAbout a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+
+/* --------------------------- CSS for small screen ---------------------------*/
+
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        background-image: url(images/hp.png);
+    }
+    .content{
+        margin-top: 30%;
+        font-size: 15px;
+    }
+    .content h1{
+        font-size: 20px;
+    }
+    .content h2{
+        font-size: 15px;
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: red;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .information h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .row{
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .contactMe{
+        flex-basis: 100%;
+    }
+
+    .footerContact{
+        margin-top: 200%;
+    }
+
+    .subHeader nav .fa-solid{
+        display: block;
+        font-size: 25px;
+        color: black;
+    }
+    nav ul{
+        background: red;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+       
+}

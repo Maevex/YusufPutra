@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potofolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c31f508b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="subHeader">
+        <nav>
+            <h2 class="logoContact">Porto <span>Oliver</span></h2>
+            <ul id="sidemenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portofolio.html">PORTOFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+
+    </section> 
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63440.77364417968!2d106.7827780522294!3d-6.387762067600174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e95620a297d3%3A0x1cfd4042316fb217!2sDepok%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1676223822003!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contactMe">
+        <div class="row">
+            <div class="contactInfo">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>oliversebastian321@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0821-1083-2236</p>
+                <div class="socialmediaIcons">
+                    <a href="https://www.linkedin.com/in/oliver-sebastian-4590a1169/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/oliversebastian__/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/oliveraja"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <a href="images/cv ats.pdf" download class="btn btn2">Download CV</a>
+                
+            <div class="contactColoum">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email Address" required>
+                    <input type="text" placeholder="Enter Your LinkedIn" required>
+                    <textarea rows="8" placeholder="Comment" required></textarea>
+                    <button type="SUBMIT" class="button buttonWhite">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+<!------------------- FOOTER ------------------->
+
+<section class="footerContact">
+    <p>
+    oliver@2023. 
+    <br>
+    -BNCC2201027-</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/oliver-sebastian-4590a1169/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/oliversebastian__/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/oliveraja"><i class="fa-brands fa-github"></i></a>
+        </div>
+</section>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-250px";
+    }
+
+</script>
+
+</body>
+</html>
