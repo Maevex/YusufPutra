@@ -1,134 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anies Baswedan - Portfolio</title>
-    <link rel="stylesheet" href="./styles/style.css"/>
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
-<body>
-    <header>
-        <div class="main-container">
-            <div class="nav">
-                <div class="logo">
-                    <a href="/">AB</a> <!-- Adjust the initials or logo for Anies Baswedan -->
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="./amien.html">Amien Rais</a></li> <!-- Link to Amien Rais's page -->
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <section id="about">
-        <div class="main-container">
-            <h3 class="pre-title">About Me</h3>
-            <h1 class="section-title">Anies Baswedan</h1>
-            <p>
-                Anies Baswedan is a renowned Indonesian politician and educator, currently serving as the Governor of Jakarta. He is known for his dedication to education reform and social welfare initiatives.
-            </p>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="main-container">
-            <h3 class="pre-title">Experience</h3>
-            <h1 class="section-title">Career Highlights</h1>
-            <div class="grid-2">
-                <div class="experience">
-                    <h4 class="experience-title">Governor of Jakarta</h4>
-                    <p class="experience-years">2017 - Present</p>
-                    <p>
-                        Led various initiatives focusing on education, healthcare, and infrastructure development.
-                    </p>
-                </div>
-                <div class="experience">
-                    <h4 class="experience-title">Minister of Education and Culture</h4>
-                    <p class="experience-years">2014 - 2016</p>
-                    <p>
-                        Spearheaded educational reforms to enhance the quality and accessibility of education in Indonesia.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="main-container">
-            <h3 class="pre-title">Skills</h3>
-            <h1 class="section-title">Skills & Expertise</h1>
-            <div class="skills-grid">
-                <div class="skills-left">
-                    <!-- Skills can be listed here -->
-                    <div class="skill">
-                        <h4>Leadership</h4>
-                        <div class="skill-container">
-                            <div class="progress-bar" style="width: 90%;"></div>
-                            <div class="percentage">90%</div>
-                        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anies Baswedan - Politician and Educator</title>
+        <link rel="stylesheet" href="./styles/style.css"/>
+        <link rel="stylesheet" href="./styles/responsive.css">
+    </head>
+    <body>
+        <header>
+            <div class="main-container">
+                <div class="nav">
+                    <div class="logo">
+                        <a href="/">AB</a>
                     </div>
-                    <div class="skill">
+                    <nav>
+                        <ul>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolios">Portfolios</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li>
+                                <a href="/resume.pdf" target="_blank">
+                                    <button class="btn">Resume</button>
+                                </a>
+                            </li>
+                            <li><a href="nexindex.html">Amien Rais</a></li> <!-- Add this line -->
+                        </ul>
+                    </nav>
+                    
+                    <div class="burger">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="line-3"></div>
+                    </div>
+                </div>
+
+                <section id="hero">
+                    <div class="hero-left">
+                        <h3 class="pre-title">My name is</h3>
+                        <h1 class="hero-name">Anies <span>Baswedan</span></h1>
+                        <p>
+                            Politician and Educator. Former Governor of Jakarta, Former Minister of Education and Culture.
+                        </p>
+                    </div>
+                    <div class="hero-right">
+                        <img src="./images/hero.svg" alt="Person Standing" />
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <section id="services">
+            <div class="services main-container">
+                <h3 class="pre-title">Services</h3>
+                <h1 class="section-title services-title">Specialized In</h1>
+                <div class="grid-3">
+                    <!--Service 1-->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 20v3h-20v-3h20zm0-17c-1.5 0-2.662 1.685-1.598 3.194.535.759.406 1.216.045 1.749-.765 1.127-1.872 2.057-3.447 2.057-2.522 0-3.854-2.083-4.131-3.848-.096-.614-.15-1.074.436-1.644.496-.481.826-1.151.645-1.947-.196-.857-.963-1.561-1.95-1.561-1.104 0-2 .896-2 2 0 .605.293 1.118.695 1.508.586.57.531 1.03.436 1.644-.278 1.764-1.61 3.848-4.131 3.848-1.575 0-2.682-.93-3.447-2.058-.362-.532-.491-.989.045-1.748 1.064-1.509-.098-3.194-1.598-3.194-1.104 0-2 .896-2 2 0 .797.464 1.495 1.144 1.808.825.379.856 1.317.856 2.171v9.021h20v-9.021c0-.854.031-1.792.856-2.171.68-.313 1.144-1.011 1.144-1.808 0-1.104-.897-2-2-2z"/></svg>
+                        </div>
                         <h4>Public Speaking</h4>
-                        <div class="skill-container">
-                            <div class="progress-bar" style="width: 85%;"></div>
-                            <div class="percentage">85%</div>
+                        <p>
+                            Engaging and motivational public speaking.
+                        </p>
+                    </div>
+                    <!--service 2-->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 20v3h-20v-3h20zm0-17c-1.5 0-2.662 1.685-1.598 3.194.535.759.406 1.216.045 1.749-.765 1.127-1.872 2.057-3.447 2.057-2.522 0-3.854-2.083-4.131-3.848-.096-.614-.15-1.074.436-1.644.496-.481.826-1.151.645-1.947-.196-.857-.963-1.561-1.95-1.561-1.104 0-2 .896-2 2 0 .605.293 1.118.695 1.508.586.57.531 1.03.436 1.644-.278 1.764-1.61 3.848-4.131 3.848-1.575 0-2.682-.93-3.447-2.058-.362-.532-.491-.989.045-1.748 1.064-1.509-.098-3.194-1.598-3.194-1.104 0-2 .896-2 2 0 .797.464 1.495 1.144 1.808.825.379.856 1.317.856 2.171v9.021h20v-9.021c0-.854.031-1.792.856-2.171.68-.313 1.144-1.011 1.144-1.808 0-1.104-.897-2-2-2z"/></svg>
+                        </div>
+                        <h4>Educational Consulting</h4>
+                        <p>
+                            Expertise in educational development and policies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--portfolio-->
+        <section id="portfolios">
+            <div class="portfolios main-container">
+                <h3 class="pre-title">My Works</h3>
+                <h1 class="section-title">Featured Portfolios</h1>
+                <div class="grid-3">
+                    <!--portfolio1-->
+                    <div class="portfolio">
+                        <div class="portfolio-info">
+                            <div class="portfolio-title">
+                                <h4>Jakarta Smart City</h4>
+                            </div>
+                            <div class="portfolio-tags">
+                                <div>Governance</div>
+                                <div>Technology</div>
+                            </div>
+                            <p>
+                                Led initiatives to transform Jakarta into a smart city through technology and innovation.
+                            </p>
+                        </div>
+                    </div>
+                    <!--portfolio2-->
+                    <div class="portfolio">
+                        <div class="portfolio-info">
+                            <div class="portfolio-title">
+                                <h4>Educational Reform</h4>
+                            </div>
+                            <div class="portfolio-tags">
+                                <div>Education</div>
+                                <div>Policy</div>
+                            </div>
+                            <p>
+                                Implemented significant educational reforms as the Minister of Education and Culture.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="skills-right">
-                    <!-- More skills can be added here -->
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="skills main-container">
+                <h3 class="pre-title">Learning Path</h3>
+                <h1 class="section-title">Skills & Education</h1>
+                <div class="skills-grid">
+                    <div class="skills-left">
+                        <!--education 1-->
+                        <div class="education">
+                            <div class="line">
+                                <div></div>
+                            </div>
+                            <div class="education-info">
+                                <h4 class="education-title">Northwestern University</h4>
+                                <p>Ph.D. in Political Science</p>
+                                <h4 class="education-years">2005</h4>
+                            </div>
+                        </div>
+                        <!--education 2-->
+                        <div class="education">
+                            <div class="line">
+                                <div></div>
+                            </div>
+                            <div class="education-info">
+                                <h4 class="education-title">University of Maryland</h4>
+                                <p>Master of Public Policy</p>
+                                <h4 class="education-years">1997</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-right">
+                        <div class="skill">
+                            <h4>Public Speaking</h4>
+                            <div class="skill-container">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                                <div class="percentage">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h4>Leadership</h4>
+                            <div class="skill-container">
+                                <div class="progress-bar" style="width: 85%;"></div>
+                                <div class="percentage">85%</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <div class="main-container">
-            <h3 class="pre-title">Contact</h3>
-            <h1 class="section-title">Get in Touch</h1>
-            <form>
-                <input type="text" placeholder="Name" required/>
-                <input type="email" placeholder="Email" required/>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
+        <section id="contact">
+            <div class="contact main-container">
+                <h3 class="pre-title">Get in Touch</h3>
+                <h1 class="section-title">Contact</h1>
+                <form>
+                    <input type="text" placeholder="Name" required/>
+                    <input type="email" placeholder="Email" required/>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
 
-    <footer>
-        <div class="main-container">
-            <div class="footer">
+        <footer>
+            <div class="footer main-container">
                 <div class="footer-top">
-                    <a href="/" class="footer-logo">AB</a> <!-- Adjust initials or logo for Anies Baswedan -->
+                    <a href="/" class="footer-logo">AB</a>
                 </div>
                 <div class="footer-bottom">
                     <div class="footer-left">
-                        <h4>Contact Information</h4>
+                        <h4>Contact Me</h4>
                         <ul>
-                            <li><a href="mailto:anies@example.com">anies@example.com</a></li>
+                            <li><a href="mailto:email@example.com">email@example.com</a></li>
                             <li><a href="tel:+123456789">+123 456 789</a></li>
                         </ul>
                     </div>
                     <div class="footer-right">
-                        <h4>Connect with Me</h4>
+                        <h4>Social Media</h4>
                         <ul>
-                            <li><a href="https://www.linkedin.com/in/aniesbaswedan">LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/in/anies-baswedan">LinkedIn</a></li>
                             <li><a href="https://twitter.com/aniesbaswedan">Twitter</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="./scripts/script.js"></script>
-</body>
+        <script src="./scripts/script.js"></script>
+    </body>
 </html>
